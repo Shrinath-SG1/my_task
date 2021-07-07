@@ -18,7 +18,7 @@ class LoginScreen extends StatelessWidget {
               decoration: BoxDecoration(color: Colors.white.withOpacity(0.0)),
             ),
           ),
-          height: size.height * 0.60,
+          height: size.height,
           width: size.width,
           decoration: new BoxDecoration(
             color: const Color(0xff7c94b6),
@@ -38,7 +38,7 @@ class LoginScreen extends StatelessWidget {
                   child: Column(children: [
                     Container(
                       alignment: Alignment.topLeft,
-                      height: size.height * 0.40,
+                      height: size.height * 0.34,
                       child: Padding(
                         padding: EdgeInsets.only(top: 100, left: 20),
                         child: Text(
