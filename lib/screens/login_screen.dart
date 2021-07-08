@@ -40,10 +40,10 @@ class LoginScreen extends StatelessWidget {
                       alignment: Alignment.topLeft,
                       height: size.height * 0.34,
                       child: Padding(
-                        padding: EdgeInsets.only(top: 100, left: 20),
-                        child: Text(
+                        padding: EdgeInsets.only(top: 100, left: 50),
+                        child: const Text(
                           'Welcome!!',
-                          style: TextStyle(color: Colors.white, fontSize: 30),
+                          style: TextStyle(color: Colors.white, fontSize: 40,fontWeight: FontWeight.w600),
                         ),
                       ),
                     ),
